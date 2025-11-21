@@ -23,7 +23,8 @@ headers = {
 
 def inspect_url(url):
     web_request = requests.get(url,headers= headers, proxies= proxies).text
-    soup = BeautifulSoup(web_request,'html.parser')
+    #lxml is faster than html.parser
+    soup = BeautifulSoup(web_request,'lxml')
     return soup
 
 def find_book_urls(base_url, base_url_soup):
