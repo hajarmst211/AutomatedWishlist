@@ -1,5 +1,6 @@
+
 # General Information about the project:
-1. Name of the project: Automating a wishlist
+1. Name of the project: Book Scrape Engine
 2. Object of the project: Scrapping an online book store's data and getting useful price insights
 3. Motivation of the project: Learning new things and enhancing my programming skills.
 4. Dependencies of the project: The project only needs the requirements mentioned in the requirements.txt file.
